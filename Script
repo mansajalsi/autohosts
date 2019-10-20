@@ -1,0 +1,131 @@
+gg.alert("🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀 \n 🇸‌🇨‌🇷‌🇮‌🇵‌🇹‌ 🇲‌🇦‌🇩‌🇪‌ 🇧‌🇾‌ 🇸‌🇦‌🇯‌🇦‌🇱‌\n 🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀")
+gg.alert("⭕ᴛᴜᴛᴏʀɪᴀʟ ᴛᴏ ᴜᴘᴅᴀᴛᴇ ᴡʜ ᴀɴᴅ ᴄᴏʟᴏʀ ғᴏʀ ᴀʟʟ ᴅᴇᴠɪᴄᴇs \n 1 🔹ᴛᴜʀɴ ᴏɴ ғɪʀsᴛ ɪɴ ʟᴏʙʙʏ ʜᴀᴄᴋs ᴇ.ɢ. ʟᴇss ʀᴇᴄᴏɪʟ ᴀɴᴅ ᴀᴜᴛᴏ ʜᴇᴀᴅsʜᴏᴛ \n 2🔹 ᴇɴᴛᴇʀ ᴛʀᴀɪɴɪɴɢ ᴍᴏᴅᴇ. ᴀᴄᴛɪᴠᴀᴛᴇ ᴡʜ ᴀɴᴅ ᴄᴏʟᴏʀ ᴛᴏ ᴛᴇsᴛ. ʀᴇᴛᴜʀɴ ᴛᴏ ʟᴏʙʙʏ \n 3🔹 ᴡʜɪʟᴇ ɪɴ ʟᴏʙʙʏ. ᴇᴠᴇʀʏᴛʜɪɴɢ ʟᴏᴏᴋs ɴᴏʀᴍᴀʟ. ɪɢɴᴏʀᴇ ɪᴛ \n 4🔹 ᴇɴᴛᴇʀ ᴛʜᴇ ʜᴀᴘᴘʏ ᴄʜᴇᴀᴛɪɴɢ ɢᴀᴍᴇ.")
+KALITRICKS = 1
+gg.setVisible(false)
+SAJAL = 1
+function KALITRICKS()
+menu = gg.multiChoice({
+	"🎯 🇼‌🇭‌ & 🇨‌🇭‌",
+	"🎯 🇱‌🇪‌🇸‌🇸‌ 🇷‌🇪‌🇨‌🇴‌🇮‌🇱‌‌",
+	"🎯 🇸‌🇦‌🇫‌🇪‌ 🇭‌🇪‌🇦‌🇩‌🇸‌🇭‌🇴‌🇹‌",
+	"🎯 🇮‌🇵‌🇦‌🇩‌ 🇻‌🇮‌🇪‌🇼‌",
+	"🎯 ‌🇱‌🇴‌🇬‌🇸‌ 🇨‌🇱‌🇪‌🇦‌🇳‌",
+	"☠️ 🇪‌🇽‌🇮‌🇹‌"
+	},nil, "🎀 Made By 🇸‌🇦‌🇯‌🇦‌🇱‌ 🎀")
+	if menu == nil then else
+	if menu[1] == true then on() end
+	if menu[2] == true then lr() end
+	if menu[3] == true then hss() end
+	if menu[4] == true then aimb() end
+	if menu[5] == true then off() end
+	if menu[6] == true then exit() end
+	end
+    SAJAL = -1
+	end
+	
+	
+	function exit()
+	print("🎀 Script Made By 🇸‌🇦‌🇯‌🇦‌🇱‌ 🎀")
+	print("🎀 Values By 🇸‌🇦‌🇯‌🇦‌🇱‌")
+	os.exit()
+	end
+	
+	
+	
+function on()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2;1.8947657e-40;5.8013756e-42", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("2.718519e-43;3.7615819e-37;2;-1;1;-127", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("8200;96", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(999)
+gg.editAll("8198", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Wallhack + Colour ")
+gg.setVisible(false) 
+end
+
+function off()
+os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs/ShadowTrackerExtra.log")
+  os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifsbk")
+  os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json")
+  os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/cache/GCloud.ini")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs/ShadowTrackerExtra.log")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifsbk")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
+  gg.toast("ᏞϴᏀՏ ᏟᏞᎬᎪΝᎬᎠ")
+  
+end
+function lr()
+gg.clearResults()
+  gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1D;0.05000000075F;0.10000000149F;0.55000001192F;9.5F;15.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(800)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+  gg.toast("No Recoil 50% Aktif Plak")
+  gg.clearResults()
+  end
+
+function hss()
+gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-460", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-560", gg.TYPE_FLOAT)
+  gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("9.201618;30.5;25",gg.TYPE_FLOAT, false,gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("25;30.5",gg.TYPE_FLOAT, false,gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("200",gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("खोपड़ी फोड़ 80%")
+gg.clearResults()
+end
+
+
+function aimb()
+gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("2.8025969e-45;220;25;178;15;100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("440", gg.TYPE_FLOAT)
+  gg.toast("Ipad View")
+end
+
+while true do
+    if gg.isVisible(true) then
+      SAJAL = 1
+      gg.setVisible(false)
+    end
+    if SAJAL == 1 then
+      KALITRICKS()
+    end
+    end
